@@ -1,0 +1,15 @@
+title: My LaTeX Blog
+email: bumbleb0728@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog showcasing LaTeX with Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bumblebee-wings.github.io" # your GitHub Pages URL
+theme: jekyll-latex
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
